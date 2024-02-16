@@ -10,10 +10,12 @@ releases:
         security alerts https://github.com/ansible/terraform-provider-ansible/security/dependabot
         (https://github.com/ansible/terraform-provider-ansible/pull/72).
       - Updates the provider to use SDKv2 (https://github.com/ansible/terraform-provider-ansible/issues/39).
+      - Updates the provider to use Go 1.21 (https://github.com/ansible/terraform-provider-ansible/pull/89)
     fragments:
     - aws_example.yml
     - gplv3_licensing.yml
     - inventory_race_conditions.yml
     - update_dependencies.yml
     - use_sdkv2.yml
-    release_date: '2024-02-14'
+    - golang_1.21.yml
+    release_date: '2024-02-17'
